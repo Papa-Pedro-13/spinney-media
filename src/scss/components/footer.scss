@@ -1,0 +1,30 @@
+.footer {
+  background-color: var(--primary-hover-color);
+  padding-top: 118px;
+  padding-bottom: 47px;
+  &__container {
+  }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu {
+    .menu__link {
+      color: var(--primary-color);
+    }
+  }
+  &__socials {
+  }
+
+  &__copy {
+    margin-top: 75px;
+    color: var(--primary-color);
+    font-size: 18px;
+    text-align: center;
+  }
+}
+.socials {
+  &__btn {
+  }
+}

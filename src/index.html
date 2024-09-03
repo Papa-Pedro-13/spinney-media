@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Home'
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/header.html')
+
+    <main class="page" role="main">
+      <section class="main">
+        <div class="main__container">
+          <h1 class="main__headline">
+            <span style='color:rgba(161, 211, 255, 1)'>Easy</span> and
+            <span style='color: rgba(222, 250, 89, 1);'>accessible</span>
+            physical fulfillment for
+            every
+            working and
+            aspiring musician
+          </h1>
+          <button class="main__btn btn">JOIN OUR WAITLIST</button>
+        </div>
+      </section>
+      <section class='advantages'>
+        <div class="advantages__container">
+          <div class="advantages__left">
+            <h2 class="advantages__headline">What is Spinney Media</h2>
+            <h3 class="advantages__title">
+              We are an affordable, subscription-based platform, open to all working and aspiring musicians and labels.
+              We
+              help you store, market, sell, and make money from your physical media and merch.
+              <span>Best part? You keep 100% of your net sales.</span>
+            </h3>
+          </div>
+          <img src="./images/records.png" alt="" class="advantages__img">
+        </div>
+      </section>
+      <section class="guide">
+        <div class="guide__container">
+          <h2 class="guide__headline">How It Works</h2>
+          <div class="guide__steps">
+            <div class="guide__steps-item">
+              <div class="step__number">1</div>
+              <p class="step__desc">Sign up and subscribe</p>
+            </div>
+            <div class="guide__steps-item">
+              <div class="step__number green">2</div>
+              <p class="step__desc">Send in your vinyl, CDs, and cassettes</p>
+            </div>
+            <div class="guide__steps-item second-half">
+              <div class="step__number green">3</div>
+              <p class="step__desc">We list your music on multiple platforms, including our Marketplace</p>
+            </div>
+            <div class="guide__steps-item ">
+              <div class="step__number">4</div>
+              <p class="step__desc">When you make a sale, we take care of your fan. You keep 100% of your net sale.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      @@include('html/signup.html')
+      <section class="articles">
+        <div class="articles__container">
+          <h2 class="articles__headline">Turntable (Blog) Highlights</h2>
+          <div class="articles__list">
+            <div class="articles__item">
+              <img src="./images/article1.png" alt="" class="articles__img">
+              <div class="articles__text">
+                <h3 class="articles__title">Behind the Scenes: Our Marketplace</h3>
+                <p class="articles__desc">I’m excited.  You may have noticed a couple of social media posts about our
+                  Marketplace launch.  Want a “behind the scenes” look?  Read on…</p>
+                <a href="" class="articles__btn btn">Read more</a>
+              </div>
+            </div>
+            <div class="articles__item">
+              <img src="./images/article2.png" alt="" class="articles__img">
+              <div class="articles__text">
+                <h3 class="articles__title">Let's Upgrade That Digital-Only Release Strategy</h3>
+                <p class="articles__desc">For all the growth in physical media popularity and sales, indie musicians are
+                  under-represented.  Why? <br>
+                  Digital distribution seems cheap and easy - a corner to cut in getting your music out there.  Does a
+                  digital-only release strategy work?</p>
+                <a href="" class="articles__btn btn">Read more</a>
+              </div>
+            </div>
+            <div class="articles__item">
+              <img src="./images/article3.png" alt="" class="articles__img">
+              <div class="articles__text">
+                <h3 class="articles__title">Your Fans Want to Support You</h3>
+                <p class="articles__desc">Fans understand that going to shows and buying physical, at the merch table
+                  and from direct-to-fan online platforms, helps their favorite musicians make money (& make more
+                  music).</p>
+                <a href="" class="articles__btn btn">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+
+    @@include('html/footer.html')
+  </div>
+
+  @@include('html/popupExample.html')
+  @@include('html/script.html')
+</body>
+
+</html>

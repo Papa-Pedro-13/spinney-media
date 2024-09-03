@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Contact'
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/header.html')
+
+    <main class="page side-page" role="main">
+      <section class="contact">
+        <div class="contact__container">
+          <h2 class="contact__headline">Contact</h2>
+          <form class="contact__form form">
+            <div class="form__inputs">
+              <div class="form__block">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="form__block">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+              </div>
+              <div class="form__block">
+                <label for="phone">Phone number</label>
+                <input type="text" name="phone" id="phone">
+              </div>
+              <div class="form__block">
+                <label for="comment">Comment</label>
+                <textarea name="comment" id="comment" class="form__textarea"></textarea>
+              </div>
+            </div>
+            <button class="form__btn btn" type='submit'>Create account</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+
+    @@include('html/footer.html')
+  </div>
+
+  @@include('html/popupExample.html')
+  @@include('html/script.html')
+</body>
+
+</html>

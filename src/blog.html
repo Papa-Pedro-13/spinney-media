@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Blog'
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/header.html')
+
+    <main class="page side-page" role="main">
+
+      <section class="blog">
+        <div class="blog__container">
+          <h2 class="blog__headline">
+            Turntable (Blog)
+          </h2>
+          <div class="blog__block">
+            <div class="blog__item blog__item--large">
+              <img src="./images/blog1.png" alt="" class="blog__img">
+              <h3 class="blog__title">Behind the Scenes: Our Marketplace</h3>
+              <p class="blog__date">MARCH 15, 2024</p>
+              <p class="blog__desc">I’m excited.  You may have noticed a couple of social media posts about our
+                Marketplace launch.  Want a “behind the scenes” look?</p>
+              <a href="./article.html" class="blog__btn btn">Read more</a>
+            </div>
+            <div class="blog__item">
+              <img src="./images/blog2.png" alt="" class="blog__img">
+              <h3 class="blog__title">Let's Upgrade That Digital-Only Release Strategy</h3>
+              <p class="blog__date">FEBRUARY 19, 2024</p>
+              <p class="blog__desc">Vinyl and CD sales are up again.  Fans are excited to buy albums again.</p>
+              <a href="./article.html" class="blog__btn btn">Read more</a>
+            </div>
+            <div class="blog__item">
+              <img src="./images/blog3.png" alt="" class="blog__img">
+              <h3 class="blog__title">Your Fans Want to Support You</h3>
+              <p class="blog__date">FEBRUARY 12, 2024</p>
+              <p class="blog__desc">“Do you have Jealous of the Birds on vinyl?”
+                “I, ah, do.” Good-bye, Jealous of the Birds vinyl. This was my fifteen-year-old kiddo - looking to adopt
+                my vinyl.</p>
+              <a href="./article.html" class="blog__btn btn">Read more</a>
+            </div>
+            <div class="blog__item blog__item--large">
+              <img src="./images/blog4.png" alt="" class="blog__img">
+              <h3 class="blog__title">The Future Is Physical</h3>
+              <p class="blog__date">JANUARY 23, 2024</p>
+              <p class="blog__desc">The future is physical (again).  The vast majority of successful Indie artists and
+                labels make the majority of their money from gigging and selling physical merch.  Period.</p>
+              <a href="./article.html" class="blog__btn btn">Read more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      @@include('html/signup.html')
+
+    </main>
+
+
+    @@include('html/footer.html')
+  </div>
+
+  @@include('html/popupExample.html')
+  @@include('html/script.html')
+</body>
+
+</html>

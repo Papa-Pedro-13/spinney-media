@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'About us'
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/header.html')
+
+    <main class="page side-page" role="main">
+
+      <section class="about">
+        <div class="about__container">
+          <h2 class="about__headline">About Us</h2>
+          <div class="about__block">
+            <div class="about__item">
+              <img src="./images/about1.png" alt="" class="about__img">
+              <h3 class="about__title">About Spinney Media</h3>
+              <p class="about__desc">
+                We at Spinney Media are building an easy, affordable, subscription-based physical distribution and
+                fulfillment service for all working and aspiring musicians. <br><br> Join our mailing list! It's not
+                just a
+                way
+                to stay in touch. We'll be asking a select number of our mailing list subscribers to join our beta
+                launch and follow on pilots as we work toward launching our platform for everyone.
+              </p>
+            </div>
+            <div class="about__item">
+              <img src="./images/about2.png" alt="" class="about__img">
+              <h3 class="about__title">About Rob, Founder-CEO</h3>
+              <p class="about__desc">
+                Rob Bach has over thirty years experience working in music retail and distribution, including key
+                operations and leadership roles with Virgin Megastores, Amazon, and CD Baby.
+                <br><br>
+                His professional and personal networks within the industry are vast and ready to help independent
+                musicians connect and thrive.
+              </p>
+            </div>
+            <div class="about__item">
+              <img src="./images/about3.png" alt="" class="about__img">
+              <h3 class="about__title">About Rob, The Early Years</h3>
+              <ul class="about__list">
+                <li class="about__list-item">Played violin and piano through grade school</li>
+                <li class="about__list-item">Noodled on his Yamaha DX7 synthesizer during high school</li>
+                <li class="about__list-item">Gigged as a mobile DJ for three years</li>
+                <li class="about__list-item">Finished his BA in English/Creative Writing at the University of Washington
+                  in 2001</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      @@include('html/signup.html')
+
+    </main>
+
+
+    @@include('html/footer.html')
+  </div>
+
+  @@include('html/popupExample.html')
+  @@include('html/script.html')
+</body>
+
+</html>

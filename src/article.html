@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Behind the Scenes: Our Marketplace'
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/header.html')
+
+    <main class="page side-page" role="main">
+      <section class="article">
+        <div class="article__container">
+          <img src="./images/article1.png" alt="" class="article__img">
+          <div class="article__block">
+            <h2 class="article__headline">Behind the Scenes: Our Marketplace</h2>
+            <div class="article__date">MARCH 15, 2024</div>
+            <div class="article__desc">
+              I’m excited.  You may have noticed a couple of social media posts about our Marketplace launch.  Want a
+              “behind the scenes” look?  Read on…
+              I began dreaming of Spinney Media last summer.  I had left CD Baby a few months before.  My wife, Sue, and
+              I were starting our own businesses; I was eager to keep working in the music industry. <br><br>
+
+              So I planned and kicked off a pilot called “Spinney Media” around Lean principles:
+              <ul class="article__list">
+                <li class="article__list-item">Hypothesis (Plan)</li>
+                <li class="article__list-item">Test with an Minimally Viable Product (Do)</li>
+                <li class="article__list-item">Analyze Feedback (Check)</li>
+                <li class="article__list-item">Continue, Adjust, or Pivot (Act)</li>
+              </ul>
+              <br><br>
+              I am a nerd when it comes to Lean and data. <br><br>
+
+              My first pilot with Spinney Media was to see if people would consign their vinyl collections to me; then I
+              would sell it on their behalf.  This was for casual collectors - people who didn’t have the time or
+              resources to do all the work involved in cleaning, inspecting, posting, and selling used vinyl.  With each
+              sale, collectors would earn more money than selling their collections for a fixed price per
+              record.<br><br>
+
+              That pilot lasted a few weeks.  Everyone wanted to sell their vinyl collections to me, not consign them. 
+              They didn’t want to wait for a potentially larger payoff down the road.  They wanted cash. Now.<br><br>
+
+              Pivot.<br><br>
+
+              My second iteration was to buy and sell used vinyl online.  Our first purchases and sales were
+              successful.  Collectors, music fans, and I were all happy.  And selling used vinyl was profitable.<br><br>
+
+              That service continues through today, adjusted around what I’ve learned along the way.  What you’re seeing
+              in our social media posts are reviews from happy music fans that have purchased the used vinyl I
+              sell.<br><br>
+
+              Now I’m thrilled to be expanding Spinney Media into its next phase:  helping independent artists and
+              labels sell their new-condition physical merch, starting with vinyl, CDs, and cassette tapes.  <br><br>
+
+              Joel, my Founding Partner, and I assembled racks this week (pictured).  This kicks off our pilot, fondly
+              called the “basement pilot,” here in Portland, OR.  We’re thrilled to be back in this space, helping indie
+              musicians and labels, working with industry partners, and delighting music fans.<br><br>
+
+              Check out our Marketplace.  We’ve launched with three amazing artists:  Jane Siberry, Two Steps From Hell
+              (TSFH), and Thomas Bergersen (a member of TSFH).  We’ll be adding more bands, artists, and labels and as
+              we grow from our basement pilot and expand toward racking up our first warehouse.<br><br>
+
+              Did I say I was excited?  Over the moon?  <br><br>
+
+              Stay tuned!  Keep in touch by <a href="">joining our mailing list.</a><br><br>
+
+              Physical is the Future!<br><br>
+
+              – Rob<br><br>
+
+              Want to learn more about me and Spinney Media, <a href="">click here</a> <br><br>
+
+              Interested in partnering with Spinney Media, write me at <a href="">rob@spinneymedia.com</a> <br><br>
+            </div>
+            <a href="./blog.html" class="article__btn btn">Back to blog</a>
+          </div>
+
+        </div>
+      </section>
+      <section class="comments">
+        <div class="comments__container">
+          <h2 class="comments__headline">Comments</h2>
+          <div class="comments__list">
+            <div class="comments__item comment">
+              <h3 class="comment__title">
+                G’Luck Rob… I’m rooting for you… You helped me and my client and I’m confident others will be
+                equally pleased with your services.
+              </h3>
+              <div class="comment__bottom">
+                <p class="comment__prop">
+                  ED MARKIEWICZ
+                </p>
+                <p class="comment__prop">
+                  FEBRUARY 18, 2024
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="comment-form">
+        <div class="comment-form__container">
+          <h2 class="comment-form__headline">Leave a comment</h2>
+          <form class="comment-form__form form">
+            <div class="form__inputs">
+              <div class="form__block">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="form__block">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+              </div>
+              <div class="form__block">
+                <label for="comment">Comment</label>
+                <textarea name="comment" id="comment" class="form__textarea"></textarea>
+              </div>
+              <p class="form__desc">
+                Please note, comments need to be approved before they are published.
+              </p>
+            </div>
+            <button class="form__btn btn" type='submit'>Post comment</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+
+    @@include('html/footer.html')
+  </div>
+
+  @@include('html/popupExample.html')
+  @@include('html/script.html')
+</body>
+
+</html>
